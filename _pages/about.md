@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page 
+I am a postdoctoral fellow in School of Information Science and Engineering at [Hunan University](https://www.hnu.edu.cn/) from 2025.
 
 A data-driven personal website
 ======
