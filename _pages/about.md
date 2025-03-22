@@ -11,7 +11,9 @@ I am a postdoctoral fellow in School of Information Science and Engineering at [
 
 CV
 ======
-xxx.
+[Short biography]()
+
+-- In a nutshell --
 
 Getting started
 ======
