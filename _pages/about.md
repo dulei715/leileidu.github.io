@@ -9,11 +9,10 @@ redirect_from:
 
 I am a postdoctoral fellow in School of Information Science and Engineering at [Hunan University](https://www.hnu.edu.cn/) from 2025.
 
-CV
-======
+# CV
 [Short biography]()
 
--- In a nutshell --
+## In a nutshell
 
 Getting started
 ======
