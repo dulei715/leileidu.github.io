@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+
 I am a postdoctoral fellow in School of Information Science and Engineering at [Hunan University](http://www-en.hnu.edu.cn/) from 2025.
 
 # CV
@@ -17,6 +18,7 @@ I am a postdoctoral fellow in School of Information Science and Engineering at [
 - 2020-2024: Ph.D, [East China Normal University](https://english.ecnu.edu.cn/), Shanghai, China. Supervisor: [Peng Cheng](https://cspcheng.github.io/).
 - 2017-2020: M.S., [Hunan University](http://www-en.hnu.edu.cn/), Changsha, China. Supervisor: [Kenli Li](https://csee.hnu.edu.cn/people/likenli), [Qin Liu](http://csee.hnu.edu.cn/people/liuqin).
 - 2013-2017: B.S., [Xiangtan University](https://en.xtu.edu.cn/), Xiangtan, China.
+
 
 
 # Contact
