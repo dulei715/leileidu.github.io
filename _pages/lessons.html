@@ -6,4 +6,6 @@ author_profile: true
 ---
 
 
-<div class="wordwrap"><a href="{{site.author.googlescholar}}">Python</a></div>
+{% for post in site.lessons reversed %}
+  {% include archive-single.html %}
+{% endfor %}
