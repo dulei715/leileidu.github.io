@@ -2,7 +2,7 @@
 title: "Infinite Stream Estimation under Personalized w-Event Privacy"
 collection: publications
 category: conferences
-permalink: /publication/2025-05-19-SDELDP
+permalink: /publication/2025-05-19-PWEventDP
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2025-09-01
 venue: 'International Conference on Very Large Data Bases'
