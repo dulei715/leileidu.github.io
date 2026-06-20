@@ -5,7 +5,13 @@ permalink: /lessons/
 author_profile: true
 ---
 
-
-{% for post in site.lessons reversed %}
-  {% include archive-single.html %}
+{% assign groups = site.lessons | group_by:"series" %}
+{% for g in groups %}
+{% assign series_url = '/lessons/' | append: g.name | append: '/' %}
+{% assign series_page = site.pages | where: "url", series_url | first %}
+{% if series_page %}
+<h2><a href="{{ series_page.url }}">{{ g.name | capitalize }}</a></h2>
+{% else %}
+<h2><a href="{{ series_url }}">{{ g.name | capitalize }}</a></h2>
+{% endif %}
 {% endfor %}

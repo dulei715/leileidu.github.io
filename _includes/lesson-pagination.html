@@ -1,0 +1,22 @@
+{% comment %} 找出同一 series 的 lessons 并按 index 排序 {% endcomment %}
+{% assign series = page.series %}
+{% if series %}
+  {% assign items = site.lessons | where:"series", series | sort: "index" %}
+  {% assign current_index = -1 %}
+  {% for it in items %}
+    {% if it.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+
+  <nav class="lesson-pagination">
+    {% if current_index > 0 %}
+      {% assign prev = items[current_index | minus: 1 ] %}
+      <a class="lesson-prev" href="{{ prev.url }}">← {{ prev.title }}</a>
+    {% endif %}
+    {% if current_index >= 0 and current_index < items.size | minus: 1 %}
+      {% assign next = items[current_index | plus: 1 ] %}
+      <a class="lesson-next" href="{{ next.url }}">{{ next.title }} →</a>
+    {% endif %}
+  </nav>
+{% endif %}
